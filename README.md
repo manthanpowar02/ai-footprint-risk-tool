@@ -10,3 +10,4 @@ AI-powered cybersecurity and privacy risk analysis platform using:
 - Random Forest
 
 Built as a final year cybersecurity project.
+
