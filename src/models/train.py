@@ -39,7 +39,6 @@ def evaluate_model(model, X_test, y_test, name: str) -> dict:
     print(f"  F1 Score:  {metrics['f1']}%")
     return metrics
 
-
 def train_logistic_regression(X_train, X_test, y_train, y_test):
     print("\n[1/3] Training Logistic Regression...")
     lr = LogisticRegression(max_iter=1000, C=1.0,
