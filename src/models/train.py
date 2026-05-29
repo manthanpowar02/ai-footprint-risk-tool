@@ -94,7 +94,6 @@ def train_xgboost(X_train, X_test, y_train, y_test):
     print("  Saved ✅ models/xgboost.pkl")
     return xgb_model, metrics
 
-
 if __name__ == "__main__":
     X_train, X_test, y_train, y_test, features, encoders = full_pipeline()
 
