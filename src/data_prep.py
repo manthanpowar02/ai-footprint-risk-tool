@@ -96,6 +96,5 @@ def prepare_single_record(record: dict, encoders: dict) -> np.ndarray:
 
     return encoders['scaler'].transform([row])
 
-
 if __name__ == "__main__":
     full_pipeline()
